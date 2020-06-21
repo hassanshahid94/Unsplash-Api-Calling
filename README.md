@@ -1,8 +1,8 @@
-# Kisko Labs iOS Task
+# Unsplash-Api-Calling iOS Task
 
-KiskoLabsTask is an iOS Application designed for displaying random food pictures using unsplash API. This app uses unsplash API services to fetch photos and display them.
+Unsplash-Api-Calling is an iOS Application designed for displaying random food pictures using unsplash API. This app uses unsplash API services to fetch photos and display them.
 
-Demo Video Link: **[Kisko Labs Oy - iOS Task](https://www.youtube.com/watch?v=AqAtbEiB8ok&feature=youtu.be)**
+Demo Video Link: **[Unsplash-Api-Calling - iOS Task](https://www.youtube.com/watch?v=AqAtbEiB8ok&feature=youtu.be)**
 
 #### Faetures:
 This app has following major features:
