@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.7.3)
+  - IQKeyboardManager (6.1.1)
+  - RappleProgressHUD (4.1)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - SnapKit (5.0.1)
+  - SwiftlyCache (1.1.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.3)
+  - IQKeyboardManager (~> 6.1.1)
+  - RappleProgressHUD
+  - SDWebImage (~> 5.0)
+  - SnapKit (~> 5.0.0)
+  - SwiftlyCache
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - RappleProgressHUD
+    - SDWebImage
+    - SnapKit
+    - SwiftlyCache
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  RappleProgressHUD: f29bc5dc5f9834c2caa9c2ae21ba11f3ff2b5a85
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftlyCache: 166de69910162c0ea5487921eececbe27252fdda
+
+PODFILE CHECKSUM: 5058e0722208079661135c994ee8b570f1f68230
+
+COCOAPODS: 1.8.4

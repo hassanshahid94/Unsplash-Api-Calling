@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35780B9724918F0F00AF4F68 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35780B9624918F0F00AF4F68 /* ServerManager.swift */; };
+		35780B9924918FF200AF4F68 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35780B9824918FF200AF4F68 /* Constants.swift */; };
+		35780BA224919DE700AF4F68 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35780BA124919DE700AF4F68 /* BaseVC.swift */; };
+		388C8592F6D92DD7400886C6 /* Pods_KiskoLabsTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F9E6F9ED3FAE459773289 /* Pods_KiskoLabsTask.framework */; };
+		6C88862F24912A31002AC2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88862E24912A31002AC2D0 /* AppDelegate.swift */; };
+		6C88863424912A31002AC2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C88863224912A31002AC2D0 /* Main.storyboard */; };
+		6C88863624912A34002AC2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C88863524912A34002AC2D0 /* Assets.xcassets */; };
+		6C88863924912A34002AC2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C88863724912A34002AC2D0 /* LaunchScreen.storyboard */; };
+		6C88864524913AF5002AC2D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88864424913AF5002AC2D0 /* HomeVC.swift */; };
+		6C88864724913B5C002AC2D0 /* FoodTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88864624913B5C002AC2D0 /* FoodTCell.swift */; };
+		6C88864924914188002AC2D0 /* ReadyFoodCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88864824914188002AC2D0 /* ReadyFoodCCell.swift */; };
+		6C88864B249141A6002AC2D0 /* RecomendedFoodCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88864A249141A6002AC2D0 /* RecomendedFoodCCell.swift */; };
+		6C88864D24916131002AC2D0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88864C24916131002AC2D0 /* Extension.swift */; };
+		E22CC88A2497C38F00188010 /* KiskoLabsUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CC8872497C38E00188010 /* KiskoLabsUrl.swift */; };
+		E22CC88B2497C38F00188010 /* KiskoLabsFoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CC8882497C38F00188010 /* KiskoLabsFoodResponse.swift */; };
+		E22CC88C2497C38F00188010 /* KiskoLabsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22CC8892497C38F00188010 /* KiskoLabsResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210FB55A5B43558607103F8E /* Pods-KiskoLabsTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiskoLabsTask.release.xcconfig"; path = "Target Support Files/Pods-KiskoLabsTask/Pods-KiskoLabsTask.release.xcconfig"; sourceTree = "<group>"; };
+		35780B9624918F0F00AF4F68 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		35780B9824918FF200AF4F68 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35780BA124919DE700AF4F68 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		6C88862B24912A31002AC2D0 /* KiskoLabsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiskoLabsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C88862E24912A31002AC2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C88863324912A31002AC2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C88863524912A34002AC2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C88863824912A34002AC2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C88863A24912A34002AC2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C88864424913AF5002AC2D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6C88864624913B5C002AC2D0 /* FoodTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTCell.swift; sourceTree = "<group>"; };
+		6C88864824914188002AC2D0 /* ReadyFoodCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyFoodCCell.swift; sourceTree = "<group>"; };
+		6C88864A249141A6002AC2D0 /* RecomendedFoodCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedFoodCCell.swift; sourceTree = "<group>"; };
+		6C88864C24916131002AC2D0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D2BDD0CD912DD73798885420 /* Pods-KiskoLabsTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiskoLabsTask.debug.xcconfig"; path = "Target Support Files/Pods-KiskoLabsTask/Pods-KiskoLabsTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E22CC8872497C38E00188010 /* KiskoLabsUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiskoLabsUrl.swift; sourceTree = "<group>"; };
+		E22CC8882497C38F00188010 /* KiskoLabsFoodResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiskoLabsFoodResponse.swift; sourceTree = "<group>"; };
+		E22CC8892497C38F00188010 /* KiskoLabsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiskoLabsResult.swift; sourceTree = "<group>"; };
+		F89F9E6F9ED3FAE459773289 /* Pods_KiskoLabsTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiskoLabsTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C88862824912A31002AC2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388C8592F6D92DD7400886C6 /* Pods_KiskoLabsTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35780B9A2491988900AF4F68 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E22CC8882497C38F00188010 /* KiskoLabsFoodResponse.swift */,
+				E22CC8892497C38F00188010 /* KiskoLabsResult.swift */,
+				E22CC8872497C38E00188010 /* KiskoLabsUrl.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		6C88862224912A31002AC2D0 = {
+			isa = PBXGroup;
+			children = (
+				6C88862D24912A31002AC2D0 /* KiskoLabsTask */,
+				6C88862C24912A31002AC2D0 /* Products */,
+				DF5293340350A02FBA16F5EF /* Pods */,
+				75DF6443BD11399EB1029BC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C88862C24912A31002AC2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C88862B24912A31002AC2D0 /* KiskoLabsTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C88862D24912A31002AC2D0 /* KiskoLabsTask */ = {
+			isa = PBXGroup;
+			children = (
+				35780B9A2491988900AF4F68 /* ModelClasses */,
+				6C88864324913ACE002AC2D0 /* CollectionViewCells */,
+				6C88864224913AC8002AC2D0 /* TableViewCells */,
+				6C88864124913ABD002AC2D0 /* ViewControllers */,
+				6C88862E24912A31002AC2D0 /* AppDelegate.swift */,
+				6C88863224912A31002AC2D0 /* Main.storyboard */,
+				6C88863524912A34002AC2D0 /* Assets.xcassets */,
+				6C88863724912A34002AC2D0 /* LaunchScreen.storyboard */,
+				6C88863A24912A34002AC2D0 /* Info.plist */,
+				6C88864C24916131002AC2D0 /* Extension.swift */,
+				35780B9624918F0F00AF4F68 /* ServerManager.swift */,
+				35780B9824918FF200AF4F68 /* Constants.swift */,
+			);
+			path = KiskoLabsTask;
+			sourceTree = "<group>";
+		};
+		6C88864124913ABD002AC2D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35780BA124919DE700AF4F68 /* BaseVC.swift */,
+				6C88864424913AF5002AC2D0 /* HomeVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C88864224913AC8002AC2D0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6C88864624913B5C002AC2D0 /* FoodTCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		6C88864324913ACE002AC2D0 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6C88864824914188002AC2D0 /* ReadyFoodCCell.swift */,
+				6C88864A249141A6002AC2D0 /* RecomendedFoodCCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		75DF6443BD11399EB1029BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89F9E6F9ED3FAE459773289 /* Pods_KiskoLabsTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5293340350A02FBA16F5EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDD0CD912DD73798885420 /* Pods-KiskoLabsTask.debug.xcconfig */,
+				210FB55A5B43558607103F8E /* Pods-KiskoLabsTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C88862A24912A31002AC2D0 /* KiskoLabsTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C88863D24912A34002AC2D0 /* Build configuration list for PBXNativeTarget "KiskoLabsTask" */;
+			buildPhases = (
+				F59FECCF5090D797FCF49E96 /* [CP] Check Pods Manifest.lock */,
+				6C88862724912A31002AC2D0 /* Sources */,
+				6C88862824912A31002AC2D0 /* Frameworks */,
+				6C88862924912A31002AC2D0 /* Resources */,
+				ED2E632627F9EFF35241BC12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiskoLabsTask;
+			productName = KiskoLabsTask;
+			productReference = 6C88862B24912A31002AC2D0 /* KiskoLabsTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C88862324912A31002AC2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hassan Shahid";
+				TargetAttributes = {
+					6C88862A24912A31002AC2D0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C88862624912A31002AC2D0 /* Build configuration list for PBXProject "KiskoLabsTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C88862224912A31002AC2D0;
+			productRefGroup = 6C88862C24912A31002AC2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C88862A24912A31002AC2D0 /* KiskoLabsTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C88862924912A31002AC2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C88863924912A34002AC2D0 /* LaunchScreen.storyboard in Resources */,
+				6C88863624912A34002AC2D0 /* Assets.xcassets in Resources */,
+				6C88863424912A31002AC2D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED2E632627F9EFF35241BC12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KiskoLabsTask/Pods-KiskoLabsTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KiskoLabsTask/Pods-KiskoLabsTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiskoLabsTask/Pods-KiskoLabsTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59FECCF5090D797FCF49E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiskoLabsTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C88862724912A31002AC2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C88864724913B5C002AC2D0 /* FoodTCell.swift in Sources */,
+				E22CC88A2497C38F00188010 /* KiskoLabsUrl.swift in Sources */,
+				E22CC88C2497C38F00188010 /* KiskoLabsResult.swift in Sources */,
+				6C88864B249141A6002AC2D0 /* RecomendedFoodCCell.swift in Sources */,
+				6C88862F24912A31002AC2D0 /* AppDelegate.swift in Sources */,
+				E22CC88B2497C38F00188010 /* KiskoLabsFoodResponse.swift in Sources */,
+				6C88864D24916131002AC2D0 /* Extension.swift in Sources */,
+				35780B9724918F0F00AF4F68 /* ServerManager.swift in Sources */,
+				35780BA224919DE700AF4F68 /* BaseVC.swift in Sources */,
+				6C88864524913AF5002AC2D0 /* HomeVC.swift in Sources */,
+				6C88864924914188002AC2D0 /* ReadyFoodCCell.swift in Sources */,
+				35780B9924918FF200AF4F68 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C88863224912A31002AC2D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C88863324912A31002AC2D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C88863724912A34002AC2D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C88863824912A34002AC2D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C88863B24912A34002AC2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C88863C24912A34002AC2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C88863E24912A34002AC2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BDD0CD912DD73798885420 /* Pods-KiskoLabsTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = KiskoLabsTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassanshahid.KiskoLabsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C88863F24912A34002AC2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210FB55A5B43558607103F8E /* Pods-KiskoLabsTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = KiskoLabsTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassanshahid.KiskoLabsTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C88862624912A31002AC2D0 /* Build configuration list for PBXProject "KiskoLabsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C88863B24912A34002AC2D0 /* Debug */,
+				6C88863C24912A34002AC2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C88863D24912A34002AC2D0 /* Build configuration list for PBXNativeTarget "KiskoLabsTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C88863E24912A34002AC2D0 /* Debug */,
+				6C88863F24912A34002AC2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C88862324912A31002AC2D0 /* Project object */;
+}
