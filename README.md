@@ -66,7 +66,7 @@ App images are placed in **Assets.xcassets** folder.
 
 ### Cocoapods:
 
-Kisko Labs iOS Task uses a number of open source 3rd Party Libraries for better user experience:
+Unsplash-Api-Calling iOS Task uses a number of open source 3rd Party Libraries for better user experience:
 
 * [Alamofire](https://github.com/Alamofire/Alamofire) - An HTTP networking library.
 
